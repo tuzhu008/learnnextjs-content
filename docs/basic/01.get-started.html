@@ -1,0 +1,566 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>开始 · Node.js</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="tuzhu008">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-atom-dark.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="02.navigate-between-pages.html" />
+    
+    
+    <link rel="prev" href="../../" />
+    
+
+    
+        <link rel="shortcut icon" href='../../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../assets/images/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/apple-touch-icon-120x120.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon-180x180.png">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    关于本书
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">基础</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="01.get-started.html">
+            
+                <a href="01.get-started.html">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="02.navigate-between-pages.html">
+            
+                <a href="02.navigate-between-pages.html">
+            
+                    
+                    页面导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="03.using-shared-components.html">
+            
+                <a href="03.using-shared-components.html">
+            
+                    
+                    使用共享组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="04.create-dynamic-pages.html">
+            
+                <a href="04.create-dynamic-pages.html">
+            
+                    
+                    创建动态页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="05.clean-urls-with-route-masking.html">
+            
+                <a href="05.clean-urls-with-route-masking.html">
+            
+                    
+                    使用路由遮蔽创建清爽的 URL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="06.server-side-support-for-clean-urls.html">
+            
+                <a href="06.server-side-support-for-clean-urls.html">
+            
+                    
+                    清爽 URL 的服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="07.fetching-data-for-pages.html">
+            
+                <a href="07.fetching-data-for-pages.html">
+            
+                    
+                    获取数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="08.styling-components.html">
+            
+                <a href="08.styling-components.html">
+            
+                    
+                    样式化组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="09.deploying-a-nextjs-app.html">
+            
+                <a href="09.deploying-a-nextjs-app.html">
+            
+                    
+                    部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">表格</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../excel/export-into-a-static-HTML-App.html">
+            
+                <a href="../excel/export-into-a-static-HTML-App.html">
+            
+                    
+                    Export into a Static HTML App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../excel/Lazy-Loading-Modules.html">
+            
+                <a href="../excel/Lazy-Loading-Modules.html">
+            
+                    
+                    Lazy Loading Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../excel/Lazy-Loading-Components.html">
+            
+                <a href="../excel/Lazy-Loading-Components.html">
+            
+                    
+                    Lazy Loading Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >开始</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#xA0;&#x5F00;&#x59CB;"><b>1. </b>&#xA0;&#x5F00;&#x59CB;</a></li><ul><li><span class="title-icon "></span><a href="#&#xA0;&#x8BBE;&#x7F6E;"><b>1.1. </b>&#xA0;&#x8BBE;&#x7F6E;</a></li><li><span class="title-icon "></span><a href="#&#xA0;404-&#x9875;&#x9762;"><b>1.2. </b>&#xA0;404 &#x9875;&#x9762;</a></li><li><span class="title-icon "></span><a href="#&#xA0;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9875;&#x9762;"><b>1.3. </b>&#xA0;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9875;&#x9762;</a></li><li><span class="title-icon "></span><a href="#&#xA0;&#x9519;&#x8BEF;&#x5904;&#x7406;"><b>1.4. </b>&#xA0;&#x9519;&#x8BEF;&#x5904;&#x7406;</a></li><li><span class="title-icon "></span><a href="#&#xA0;&#x4F60;&#x592A;&#x68D2;&#x4E86;"><b>1.5. </b>&#xA0;&#x4F60;&#x592A;&#x68D2;&#x4E86;</a></li></ul></ul></div><a href="#&#xA0;&#x5F00;&#x59CB;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#xA0;&#x5F00;&#x59CB;"><a name="&#xA0;&#x5F00;&#x59CB;" class="anchor-navigation-ex-anchor" href="#&#xA0;&#x5F00;&#x59CB;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#xA0;&#x5F00;&#x59CB;</h1>
+<p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5355;&#x9875; Javascript &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x662F;&#x4E00;&#x4EF6;&#x975E;&#x5E38;&#x6709;&#x6311;&#x6218;&#x7684;&#x4E8B;&#x60C5;&#xFF0C; &#x5E78;&#x8FD0;&#x7684;&#x662F;&#xFF0C; &#x5F00;&#x6E90;&#x4E16;&#x754C;&#x7ED9;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E9B;&#x597D;&#x7528;&#x7684;&#x5DE5;&#x5177;&#x6765;&#x7B80;&#x5316;&#xFF0C; &#x52A0;&#x901F;&#x5355;&#x9875;&#x5E94;&#x7528;&#x7684;&#x5F00;&#x53D1;&#x3002;</p>
+<p><a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create React App</a> &#x5C31;&#x662F;&#x8FD9;&#x6837;&#x4E00;&#x79CD;&#x5DE5;&#x5177;.</p>
+<p>&#x5373;&#x4F7F;&#x662F;&#x8FD9;&#x6837;&#xFF0C; &#x521B;&#x5EFA;&#x5355;&#x9875;&#x5E94;&#x7528;&#x6709;&#x975E;&#x5E38;&#x9AD8;&#x7684;&#x5B66;&#x4E60;&#x66F2;&#x7EBF;. &#x4ECD;&#x7136;&#x9700;&#x8981;&#x6211;&#x4EEC;&#x5B66;&#x4E60;&#x5BA2;&#x6237;&#x7AEF;&#x8DEF;&#x7531;&#xFF0C; &#x9875;&#x9762;&#x5E03;&#x5C40;&#xFF0C; &#x7B49;&#x6280;&#x672F;&#x3002;&#x5982;&#x679C;&#x4F60;&#x8FD8;&#x60F3;&#x8981;&#x8FD0;&#x884C;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x6E32;&#x67D3;(SSR: Server Side Rendering)&#xFF0C; &#x4E8B;&#x60C5;&#x5C31;&#x53D8;&#x5F97;&#x66F4;&#x52A0;&#x56F0;&#x96BE;&#x4E86;&#x3002;</p>
+<blockquote>
+<p>&#x56E0;&#x6B64;&#xFF0C; &#x6211;&#x4EEC;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x5E76;&#x4E14;&#x53EF;&#x4E4B;&#x5B9A;&#x4E49;&#x7684;&#x65B9;&#x6848;</p>
+</blockquote>
+<p>&#x60F3;&#x4E00;&#x4E0B;&#x6211;&#x4EEC;&#x5982;&#x4F55;&#x4F7F;&#x7528; PHP &#x521B;&#x5EFA; Web &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x3002;&#x9996;&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E9B;&#x6587;&#x4EF6;&#xFF0C; &#x7F16;&#x5199; PHP &#x4EE3;&#x7801;&#xFF0C; &#x7136;&#x540E;&#x90E8;&#x7F72;&#x3002;&#x4E0D;&#x7528;&#x62C5;&#x5FC3;&#x8DEF;&#x7531;&#x7684;&#x95EE;&#x9898;&#xFF0C; Web &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x53EA;&#x662F;&#x5728;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x8FD0;&#x884C;&#xFF0C; &#x5E76;&#x4E14;&#x8F93;&#x51FA; HTML &#x800C;&#x5DF2;.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/50838/24116055/7076ba9c-0dcb-11e7-93d0-ba8f9ac8f6e4.png" alt="Next.js"></p>
+<p>&#x4F46;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x8BF4;&#x7684;&#x4E0D;&#x662F;&#x7528; PHP &#x6765;&#x521B;&#x5EFA; Web &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#xFF0C; &#x6211;&#x4EEC;&#x4F7F;&#x7528; Javascript &#x548C; React&#xFF0C; &#x4F7F;&#x7528; <a href="https://github.com/zeit/next.js" target="_blank">Next.js</a> &#x6846;&#x67B6;&#x7ED9;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x80FD;&#x529B;:</p>
+<ul>
+<li>&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x6E32;&#x67D3;(&#x9ED8;&#x8BA4;)</li>
+<li>&#x81EA;&#x52A8;&#x4EE3;&#x7801;&#x5206;&#x5272;&#xFF0C; &#x52A0;&#x901F;&#x9875;&#x9762;&#x52A0;&#x8F7D;</li>
+<li>&#x7B80;&#x5355;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#x8DEF;&#x7531;(&#x57FA;&#x4E8E;&#x9875;&#x9762;)</li>
+<li>&#x57FA;&#x4E8E; Webpack &#x7684;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF0C; &#x652F;&#x6301;<a href="https://webpack.js.org/concepts/hot-module-replacement/" target="_blank">&#x70ED;&#x6A21;&#x5757;&#x66FF;&#x6362;</a>(HMR: Hot Module Replacement)</li>
+<li>&#x53EF;&#x4EE5;&#x4F7F;&#x7528; Express &#x6216;&#x5176;&#x4ED6; Node.js &#x670D;&#x52A1;&#x5668;&#x5B9E;&#x73B0;</li>
+<li>&#x4F7F;&#x7528; Babel &#x548C; Webpack &#x914D;&#x7F6E;&#x5B9A;&#x5236;</li>
+</ul>
+<h2 id="&#xA0;&#x8BBE;&#x7F6E;"><a name="&#xA0;&#x8BBE;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#&#xA0;&#x8BBE;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#xA0;&#x8BBE;&#x7F6E;</h2>
+<p>Next.js &#x53EF;&#x4EE5;&#x5728; Windows&#xFF0C; Mac &#x548C; Linux &#x8FD0;&#x884C;. &#x53EA;&#x9700;&#x8981;&#x5728;&#x7CFB;&#x7EDF;&#x4E2D;&#x5B89;&#x88C5; Node.js &#x5373;&#x53EF;&#x5F00;&#x59CB;&#x6784;&#x5EFA; Next.js &#x5E94;&#x7528;&#x7A0B;&#x5E8F;.</p>
+<p>&#x9664;&#x4E86;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF0C; &#x4E00;&#x4E2A;&#x7EC8;&#x7AEF;&#x8C03;&#x7528;&#x547D;&#x4EE4;&#x4E4B;&#x5916;&#xFF0C; &#x6CA1;&#x4EC0;&#x4E48;&#x522B;&#x7684;&#x662F;&#x5FC5;&#x987B;&#x7684;.</p>
+<blockquote>
+<p>&#x5982;&#x679C;&#x5728; Windows&#x4E0A;&#x8FD0;&#x884C;&#xFF0C; &#x5EFA;&#x8BAE;&#x4F7F;&#x7528; PowerShell&#x3002; Next.js &#x53EF;&#x4EE5;&#x5DE5;&#x4F5C;&#x5728;&#x4EFB;&#x4F55; Shell &#x548C;&#x7EC8;&#x7AEF;&#x4E0B;&#x3002;&#x4F46;&#x662F;&#x672C;&#x6307;&#x5357;&#x4E2D;&#xFF0C; &#x6211;&#x4EEC;&#x4F7F;&#x7528; UNIX &#x76F8;&#x5173;&#x7684;&#x547D;&#x4EE4;&#x3002;
+&#x63A8;&#x8350;&#x5728; Windows &#x4E0B;&#x4F7F;&#x7528; PowerShell&#xFF0C; &#x8BA9;&#x5DE5;&#x4F5C;&#x65B9;&#x4FBF;&#x4E00;&#x4E9B;&#x3002;</p>
+</blockquote>
+<p>&#x8FD0;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x547D;&#x4EE4;&#xFF0C; &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;&#x7684;&#x9879;&#x76EE;:</p>
+<pre class="language-"><code class="lang-shell">mkdir hello-next
+cd hello-next
+npm init -y
+npm install --save react react-dom next
+mkdir pages
+</code></pre>
+<p>&#x7136;&#x540E;&#x6253;&#x5F00; <code>package.json</code>&#xFF0C; &#x6DFB;&#x52A0;&#x4E0B;&#x9762;&#x7684; NPM &#x811A;&#x672C;&#x547D;&#x4EE4;:</p>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;next&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>&#x73B0;&#x5728;&#xFF0C; &#x4E00;&#x5207;&#x5C31;&#x51C6;&#x5907;&#x597D;&#x4E86;&#xFF0C; &#x4F60;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x4E0B;&#x9762;&#x7684;&#x547D;&#x4EE4;&#x6765;&#x542F;&#x52A8;&#x5F00;&#x53D1;&#x670D;&#x52A1;&#x5668;&#x4E86;&#x3002;</p>
+<pre class="language-"><code class="lang-shell">npm run dev
+</code></pre>
+<p>&#x5728;&#x6D4F;&#x89C8;&#x5176;&#x4E2D;&#x6253;&#x5F00;: <a href="http://localhost:3000&#x3002;" target="_blank">http://localhost:3000&#x3002;</a></p>
+<h2 id="&#xA0;404-&#x9875;&#x9762;"><a name="&#xA0;404-&#x9875;&#x9762;" class="anchor-navigation-ex-anchor" href="#&#xA0;404-&#x9875;&#x9762;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#xA0;404 &#x9875;&#x9762;</h2>
+<p>&#x6253;&#x5F00; <a href="http://localhost:3000&#xFF0C;" target="_blank">http://localhost:3000&#xFF0C;</a> &#x6211;&#x4EEC;&#x770B;&#x5230;&#x7684;&#x662F;&#x4E00;&#x4E2A; 404 &#x9875;&#x9762;. &#x8FD9;&#x4E2A;&#x65F6;&#x5019; Next.js &#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x529F;&#x80FD;&#x3002; &#x9ED8;&#x8BA4;&#x5C31;&#x662F;&#x4E00;&#x4E2A; 404 &#x9875;&#x9762;&#x3002;</p>
+<p><img src="../../assets/images/404page.png" alt="404 Page"></p>
+<h2 id="&#xA0;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9875;&#x9762;"><a name="&#xA0;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9875;&#x9762;" class="anchor-navigation-ex-anchor" href="#&#xA0;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9875;&#x9762;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#xA0;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9875;&#x9762;</h2>
+<p>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x6765;&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9875;&#x9762;. &#x5728; <code>pages</code> &#x76EE;&#x5F55;&#x4E0B;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x540D;&#x79F0;&#x4E3A; <code>index.js</code> &#x7684;&#x6587;&#x4EF6;&#xFF0C; &#x5185;&#x5BB9;&#x5982;&#x4E0B;:</p>
+<pre class="language-"><code class="lang-jsx"><span class="token keyword">const</span> Index <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">(</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Hell Next<span class="token punctuation">.</span>js<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> Index
+</code></pre>
+<p>&#x73B0;&#x5728;&#xFF0C; &#x518D;&#x6B21;&#x8BBF;&#x95EE; <a href="http://localhost:3000&#xFF0C;" target="_blank">http://localhost:3000&#xFF0C;</a> &#x5728;&#x9875;&#x9762;&#x4E0A;&#x4F60;&#x4F1A;&#x770B;&#x5230; &quot;Hello Next.js&quot;&#x3002;&#x8FD9;&#x91CC;&#xFF0C; &#x6211;&#x4EEC;&#x53EA;&#x662F;&#x4ECE; <code>pages/index.js</code> &#x6A21;&#x5757;&#x5BFC;&#x51FA;&#x4E86;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684; React &#x7EC4;&#x4EF6;&#x3002; &#x540C;&#x7406;&#xFF0C;&#x53EF;&#x4EE5;&#x7F16;&#x5199;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x6A21;&#x5757;&#x5E76;&#x4E14;&#x5BFC;&#x51FA;&#x5B83;&#x3002;</p>
+<blockquote>
+<p>&#x786E;&#x4FDD;&#x4F60;&#x7684; React &#x7EC4;&#x4EF6;&#x4E3A;&#x9ED8;&#x8BA4;&#x5BFC;&#x51FA;
+&#x8BD1;&#x6CE8;: (<code>default</code>&#x5173;&#x952E;&#x5B57;)</p>
+</blockquote>
+<p>&#x73B0;&#x5728;&#xFF0C; &#x6211;&#x4EEC;&#x5728; Index &#x9875;&#x6545;&#x610F;&#x5F15;&#x5165;&#x4E00;&#x4E2A;&#x8BED;&#x6CD5;&#x9519;&#x8BEF;(&#x5220;&#x9664;&#x5C3E;&#x90E8;&#x7684;<code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code>HTML&#x6807;&#x7B7E;)&#xFF0C; &#x5982;&#x4E0B;:</p>
+<pre class="language-"><code class="lang-jsx"><span class="token keyword">const</span> Index <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">(</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Hello Next<span class="token punctuation">.</span>js
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token punctuation">)</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Index
+</code></pre>
+<p>&#x9875;&#x9762;&#x5C06;&#x4F1A;&#x663E;&#x793A;&#x4E00;&#x4E2A;&#x8BED;&#x6CD5;&#x9519;&#x8BEF; <code>There&apos;s an error showing the syntax error</code>.</p>
+<h2 id="&#xA0;&#x9519;&#x8BEF;&#x5904;&#x7406;"><a name="&#xA0;&#x9519;&#x8BEF;&#x5904;&#x7406;" class="anchor-navigation-ex-anchor" href="#&#xA0;&#x9519;&#x8BEF;&#x5904;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#xA0;&#x9519;&#x8BEF;&#x5904;&#x7406;</h2>
+<p>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#xFF0C; Next.js &#x4F1A;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x76F4;&#x63A5;&#x663E;&#x793A;&#x8FD9;&#x4E9B;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#xFF0C; &#x8FD9;&#x65B9;&#x4FBF;&#x4F60;&#x8BC6;&#x522B;&#x9519;&#x8BEF;&#x5E76;&#x4E14;&#x5FEB;&#x901F;&#x7684;&#x641E;&#x5B9A;&#x5B83;&#x3002;</p>
+<p>&#x4E00;&#x65E6;&#x4F60;&#x89E3;&#x51B3;&#x4E86;&#x8FD9;&#x4E9B;&#x9519;&#x8BEF;&#xFF0C; &#x9875;&#x9762;&#x4F1A;&#x6267;&#x884C;&#x4E00;&#x4E2A;&#x65E0;&#x5237;&#x65B0;&#x7684;&#x66F4;&#x65B0;&#x3002;&#x8FD9;&#x5F97;&#x76CA;&#x4E8E; Webpack &#x63D0;&#x4F9B;&#x7684;&#x70ED;&#x6A21;&#x5757;&#x66FF;&#x6362;&#x529F;&#x80FD;&#xFF0C; &#x5728;Next.js&#x5B83;&#x662F;&#x9ED8;&#x8BA4;&#x652F;&#x6301;&#x7684;&#x3002;</p>
+<h2 id="&#xA0;&#x4F60;&#x592A;&#x68D2;&#x4E86;"><a name="&#xA0;&#x4F60;&#x592A;&#x68D2;&#x4E86;" class="anchor-navigation-ex-anchor" href="#&#xA0;&#x4F60;&#x592A;&#x68D2;&#x4E86;"><i class="fa fa-link" aria-hidden="true"></i></a>1.5. &#xA0;&#x4F60;&#x592A;&#x68D2;&#x4E86;</h2>
+<p>&#x770B;&#x8D77;&#x6765;&#x4F60;&#x5DF2;&#x7ECF;&#x6784;&#x5EFA;&#x4E86;&#x7B2C;&#x4E00;&#x4E2A; Next.js &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x3002;&#x6709;&#x4EC0;&#x4E48;&#x60F3;&#x6CD5;? &#x5982;&#x679C;&#x4F60;&#x559C;&#x6B22;&#xFF0C; &#x53EF;&#x4EE5;&#x8FDB;&#x4E00;&#x6B65;&#x6DF1;&#x5165;&#x4E0B;&#x53BB;&#x3002;</p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; tuzhu008 2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-01-10 17:01:34
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../../" class="navigation navigation-prev " aria-label="Previous page: 关于本书">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="02.navigate-between-pages.html" class="navigation navigation-next " aria-label="Next page: 页面导航">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"开始","level":"2.1","depth":1,"next":{"title":"页面导航","level":"2.2","depth":1,"path":"docs/basic/02.navigate-between-pages.md","ref":"docs/basic/02.navigate-between-pages.md","articles":[]},"previous":{"title":"关于本书","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters-small","anchors","anchor-navigation-ex","favicon","copy-code-button","alerts","splitter","book-summary-scroll-position-saver","include-codeblock","ace","prism","prism-themes","-highlight","tbfed-pagefooter","github","sectionx","livereload"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy tuzhu008 2017","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-atom-dark.css"]},"ace":{},"github":{"url":"https://github.com/tuzhu008"},"livereload":{},"book-summary-scroll-position-saver":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"night","family":"serif","size":2},"sectionx":{"tag":"b"},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"favicon":{"shortcut":"assets/images/favicon.ico","bookmark":"assets/images/favicon.ico","appleTouch":"assets/images/apple-touch-icon.png","appleTouchMore":{"120x120":"assets/images/apple-touch-icon-120x120.png","180x180":"assets/images/apple-touch-icon-180x180.png"}},"prism-themes":{},"alerts":{},"expandable-chapters-small":{},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"acefull","theme":"tomorrow","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"tuzhu008","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Node.js","language":"zh-hans","gitbook":"*","description":"Node.js 自我学习"},"file":{"path":"docs/basic/01.get-started.md","mtime":"2018-01-10T09:01:34.159Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-10T08:18:05.661Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
